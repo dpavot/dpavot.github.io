@@ -1,12 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - monk1337
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - promptslab/Promptify
+  - promptslab/Awesome-Prompt-Engineering
+  - monk1337/resp
+  - monk1337/Various-Attention-mechanisms
+  - coughresearch/Cough-signal-processing
+  - coughresearch/cough-classification
+  - openlifescience-ai/ai-deadlines
+  - medhalt/medhalt
+  - monk1337/Aweome-Heathcare-Federated-Learning
+  - monk1337/Graph-Neural-networks-for-NLP
+  - monk1337/Mixclu
+  - monk1337/MultiLab

@@ -7,12 +7,9 @@ subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
-    <p>Room 36-776A</p>
-    <p>50 Vassar St. </p>
-    <p>(MIT building 36) </p>
-    <p>Cambridge, MA 02139</p>
+    <p>aadityaura@gmail.com</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -20,14 +17,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am currently a fifth-year Ph.D. student at MIT majoring in Electrical Engineering and Computer Science.
-My research focuses on machine learning and developing robust and efficient algorithms driven by clinical problems.
-Applications include motion-robust 3D rendering of the human brain, real-time quality assessment in MR scans as well as pose estimation and motion characterization of fetuses.
-I am advised by Prof. [Elfar Adalsteinsson](https://www.rle.mit.edu/people/directory/elfar-adalsteinsson/) and collaborate closely with Prof. [Polina Golland](https://people.csail.mit.edu/polina/) and Prof. [P. Ellen Grant](https://scholar.google.com/citations?user=W4dqZ7EAAAAJ).
+Hi there, I’m Aaditya (Ankit), a Senior Research Engineer specializing in NLP, Deep learning, and Machine learning. My research aims to develop machine learning methods in the Healthcare domain.
 
-I also did summer internships at Google and Meta, working on automated Ads bidding and large-scale video recommendation systems respectively.
+I currently work at [Saama](https://www.saama.com/), conducting research to accelerate [clinical trials and reduce drug development timelines](https://www.pfizer.com/news/articles/how_a_novel_incubation_sandbox_helped_speed_up_data_analysis_in_pfizer_s_covid_19_vaccine_trial). Before joining Saama, I worked as an NLP and Backend Engineer at [Prescience](https://prescienceds.com/). My research interests involve Representation Learning on Graphs, Federated learning, XAI, Generative language models and their applications in Healthcare data.
 
-Prior to MIT, I received my Bachelor's degree from Tsinghua University in 2018. I also spent a summer as a research assistant at Stanford, where I was advised by Prof. [John Pauly](https://web.stanford.edu/~pauly/) and Prof. [Greg Zaharchuk](https://profiles.stanford.edu/greg-zaharchuk).
+I've been honored to contribute meaningful research and datasets that have been adopted by leading companies like [Facebook AI](https://arxiv.org/abs/2211.09085) (Galactica), [Google AI](https://arxiv.org/abs/2305.09617) (Med-PaLM, Med-PaLM-2), [Microsoft, and OpenAI](https://arxiv.org/abs/2303.13375) (GPT-4) to further responsible advancements in AI.
+
+I have a deep appreciation for open-source work and contribute to projects including Tensorflow, Pytorch Geometric and HuggingFace. In December 2022, I noticed structured output issues in large language models and developed [Promptify](https://github.com/promptslab/Promptify), which received encouraging feedback on GitHub and assisted relief efforts during the [Turkey-Syria earthquake](https://dev.to/erayg/how-an-open-source-disaster-map-helped-thousands-of-earthquake-survivors-afetharitacom-440). During COVID-19 pandemic in March 2020, I initiated a project to capture cough and breath sounds via phone to [classify COVID-19 coughs using deep learning](https://arxiv.org/abs/2010.02417), with the aim of aiding doctors in rapid pre-screening of patients.
+
+If you are still reading, here is more about me: Apart from my research life, I'm drawn to activities like Boxing, Jiu-Jitsu and Chess. I enjoy spending time in nature, Observation, and Philosophy. I have realized to some extent that everything is connected; there is neither good nor bad; there is neither positive nor negative. I often displace myself away from social noise, take a seat, and try to see, observe, rather than just looking at it. In the process, I naturally learn.
+
+<!-- I was also privileged to serve as a reviewer for journals [Springer Nature 2021](https://www.webofscience.com/wos/author/record/AAA-9381-2021), [IEEE Access 2021](https://www.webofscience.com/wos/author/record/AAA-9381-2021) and [IEEE Access 2022](https://www.webofscience.com/wos/author/record/AAA-9381-2021). -->
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.test
