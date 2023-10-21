@@ -22,7 +22,7 @@ nav_order: 5
 ##### Graphs Neural Networks for NLP, IITB, India Jul, 2020
 - [Indian Institute of Technology Bombay, Shala](https://shala2020.github.io/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Graph_convNets_for_NLP/Graph%20convNets%20for%20NLP.pdf) ]
 
-##### Functional Programming: Journey to the Decorator World, Manipal, India Jul, 2020
+##### Functional Programming: Journey to the Decorator World, Manipal, India Oct, 2017
 - [Manipal Institute of Technology, MUPy](https://pypals.org/mupy2017)
 
 <!--
