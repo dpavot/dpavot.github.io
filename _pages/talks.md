@@ -22,6 +22,9 @@ nav_order: 5
 ##### Graphs Neural Networks for NLP, IITB, India Jul, 2020
 - [Indian Institute of Technology Bombay, Shala](https://shala2020.github.io/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Graph_convNets_for_NLP/Graph%20convNets%20for%20NLP.pdf) ]
 
+##### Functional Programming: Journey to the Decorator World, Manipal, India Jul, 2020
+- [Manipal Institute of Technology, MUPy](https://pypals.org/mupy2017)
+
 <!--
 For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
