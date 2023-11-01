@@ -22,16 +22,18 @@ Quantization is all about numeric precision. By reducing the bit-width of weight
 
 **Math Behind Quantization:**
 
-Given the real-valued weight \( w \) and the quantized weight \( w_q \), the quantization process can be formulated as:
-
 $$
 \begin{aligned}
-w_q &= Q(w) \\
-Q(w) &= \text{round}\left(\frac{w}{\Delta}\right) \times \Delta
+Q(r) &= \left\lfloor \frac{r}{S} \right\rfloor - Z \\
+\text{where:} \\
+Q & \text{is the quantization operator,} \\
+r & \text{is a real-valued input (activation or weight),} \\
+S & \text{is a real-valued scaling factor, and} \\
+Z & \text{is an integer zero point.}
 \end{aligned}
 $$
 
-Where \( \Delta \) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.
+This formula provides a straightforward and computationally efficient method for converting real numbers into quantized integers, making it a popular choice in many quantization schemes.
 
 ### Pros
 - **Reduced Model Size:** Shifting from 32-bit floating points to 8-bit integers, for instance, can reduce the model size fourfold.
