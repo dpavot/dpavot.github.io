@@ -21,12 +21,16 @@ Quantization is all about numeric precision. By reducing the bit-width of weight
 
 **Math Behind Quantization:**
 
-Suppose the real-valued weight is \( w \) and the quantized weight is \( w_q \). The quantization process can be formulated as:
+Given the real-valued weight \( w \) and the quantized weight \( w_q \), the quantization process can be formulated as:
 
-\[ w_q = Q(w) = round(\frac{w}{\Delta}) \times \Delta \]
+$$
+\begin{aligned}
+w_q &= Q(w) \\
+Q(w) &= \text{round}\left(\frac{w}{\Delta}\right) \times \Delta
+\end{aligned}
+$$
 
-Where:
-- \( \Delta \) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.
+Where \( \Delta \) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.
 
 ### Pros
 - **Reduced Model Size:** Shifting from 32-bit floating points to 8-bit integers, for instance, can reduce the model size fourfold.
@@ -45,11 +49,13 @@ Distillation involves training a smaller neural network, called the student, to 
 
 The objective in distillation is to minimize the divergence between the teacher's predictions and the student's predictions. The most commonly used measure for this divergence is the Kullback-Leibler divergence:
 
-\[ L = \sum_i y_i^{(T)} \log(\frac{y_i^{(T)}}{y_i^{(S)}}) \]
-
-Where:
-- \( y_i^{(T)} \) is the probability distribution output of the teacher model for class \( i \).
-- \( y_i^{(S)} \) is the probability distribution output of the student model for class \( i \).
+$$
+\begin{aligned}
+L &= \sum_i y_i^{(T)} \log\left(\frac{y_i^{(T)}}{y_i^{(S)}}\right) \\
+y_i^{(T)} &\text{ is the output of the teacher model for class } i \\
+y_i^{(S)} &\text{ is the output of the student model for class } i
+\end{aligned}
+$$
 
 ### Pros
 - **Size Flexibility:** The student model's architecture or size can be customized, offering a balance between size and performance.
