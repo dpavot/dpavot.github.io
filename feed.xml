@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T00:58:34+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T01:00:05+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
 </subtitle><entry><title type="html">Quantized vs Distilled Neural Models: A Comparison</title><link href="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/" rel="alternate" type="text/html" title="Quantized vs Distilled Neural Models: A Comparison" /><published>2023-11-01T00:00:00+00:00</published><updated>2023-11-01T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation</id><content type="html" xml:base="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/"><![CDATA[<p>Deep learning models, especially those with vast parameters, pose challenges for deployment in resource-constrained environments. Two popular techniques, quantization and distillation, address this issue, aiming to make these models more lightweight without compromising too much on performance. But what do they entail, and how do they compare?</p>
 
 <div class="l-page" style="text-align:center;">
   <img src="https://raw.githubusercontent.com/aadityaura/aadityaura.github.io/master/assets/img/Quantization.png" width="50%" style="margin-bottom: 12px; background-color: white;" />
-  <p>Quantization_vs_Distillation</p>
+  <p style="text-align:center;">Quantization_vs_Distillation</p>
 </div>
 
 <h2 id="quantization-precision-for-efficiency">Quantization: Precision for Efficiency</h2>
