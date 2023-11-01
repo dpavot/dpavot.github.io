@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T00:56:05+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T00:58:34+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
 </subtitle><entry><title type="html">Quantized vs Distilled Neural Models: A Comparison</title><link href="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/" rel="alternate" type="text/html" title="Quantized vs Distilled Neural Models: A Comparison" /><published>2023-11-01T00:00:00+00:00</published><updated>2023-11-01T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation</id><content type="html" xml:base="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/"><![CDATA[<p>Deep learning models, especially those with vast parameters, pose challenges for deployment in resource-constrained environments. Two popular techniques, quantization and distillation, address this issue, aiming to make these models more lightweight without compromising too much on performance. But what do they entail, and how do they compare?</p>
 
 <div class="l-page" style="text-align:center;">
@@ -12,14 +12,14 @@
 
 <p><strong>Math Behind Quantization:</strong></p>
 
-<p>Suppose the real-valued weight is ( w ) and the quantized weight is ( w_q ). The quantization process can be formulated as:</p>
+<p>Given the real-valued weight ( w ) and the quantized weight ( w_q ), the quantization process can be formulated as:</p>
 
-<p>[ w_q = Q(w) = round(\frac{w}{\Delta}) \times \Delta ]</p>
+\[\begin{aligned}
+w_q &amp;= Q(w) \\
+Q(w) &amp;= \text{round}\left(\frac{w}{\Delta}\right) \times \Delta
+\end{aligned}\]
 
-<p>Where:</p>
-<ul>
-  <li>( \Delta ) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.</li>
-</ul>
+<p>Where ( \Delta ) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.</p>
 
 <h3 id="pros">Pros</h3>
 <ul>
@@ -42,13 +42,11 @@
 
 <p>The objective in distillation is to minimize the divergence between the teacher’s predictions and the student’s predictions. The most commonly used measure for this divergence is the Kullback-Leibler divergence:</p>
 
-<p>[ L = \sum_i y_i^{(T)} \log(\frac{y_i^{(T)}}{y_i^{(S)}}) ]</p>
-
-<p>Where:</p>
-<ul>
-  <li>( y_i^{(T)} ) is the probability distribution output of the teacher model for class ( i ).</li>
-  <li>( y_i^{(S)} ) is the probability distribution output of the student model for class ( i ).</li>
-</ul>
+\[\begin{aligned}
+L &amp;= \sum_i y_i^{(T)} \log\left(\frac{y_i^{(T)}}{y_i^{(S)}}\right) \\
+y_i^{(T)} &amp;\text{ is the output of the teacher model for class } i \\
+y_i^{(S)} &amp;\text{ is the output of the student model for class } i
+\end{aligned}\]
 
 <h3 id="pros-1">Pros</h3>
 <ul>
