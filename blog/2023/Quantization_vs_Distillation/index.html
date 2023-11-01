@@ -241,14 +241,16 @@
 
 <p><strong>Math Behind Quantization:</strong></p>
 
-<p>Given the real-valued weight ( w ) and the quantized weight ( w_q ), the quantization process can be formulated as:</p>
-
 \[\begin{aligned}
-w_q &amp;= Q(w) \\
-Q(w) &amp;= \text{round}\left(\frac{w}{\Delta}\right) \times \Delta
+Q(r) &amp;= \left\lfloor \frac{r}{S} \right\rfloor - Z \\
+\text{where:} \\
+Q &amp; \text{is the quantization operator,} \\
+r &amp; \text{is a real-valued input (activation or weight),} \\
+S &amp; \text{is a real-valued scaling factor, and} \\
+Z &amp; \text{is an integer zero point.}
 \end{aligned}\]
 
-<p>Where ( \Delta ) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.</p>
+<p>This formula provides a straightforward and computationally efficient method for converting real numbers into quantized integers, making it a popular choice in many quantization schemes.</p>
 
 <h3 id="pros">Pros</h3>
 <ul>

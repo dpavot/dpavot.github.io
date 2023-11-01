@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T01:00:05+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T01:14:45+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
 </subtitle><entry><title type="html">Quantized vs Distilled Neural Models: A Comparison</title><link href="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/" rel="alternate" type="text/html" title="Quantized vs Distilled Neural Models: A Comparison" /><published>2023-11-01T00:00:00+00:00</published><updated>2023-11-01T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation</id><content type="html" xml:base="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/"><![CDATA[<p>Deep learning models, especially those with vast parameters, pose challenges for deployment in resource-constrained environments. Two popular techniques, quantization and distillation, address this issue, aiming to make these models more lightweight without compromising too much on performance. But what do they entail, and how do they compare?</p>
 
 <div class="l-page" style="text-align:center;">
@@ -12,14 +12,16 @@
 
 <p><strong>Math Behind Quantization:</strong></p>
 
-<p>Given the real-valued weight ( w ) and the quantized weight ( w_q ), the quantization process can be formulated as:</p>
-
 \[\begin{aligned}
-w_q &amp;= Q(w) \\
-Q(w) &amp;= \text{round}\left(\frac{w}{\Delta}\right) \times \Delta
+Q(r) &amp;= \left\lfloor \frac{r}{S} \right\rfloor - Z \\
+\text{where:} \\
+Q &amp; \text{is the quantization operator,} \\
+r &amp; \text{is a real-valued input (activation or weight),} \\
+S &amp; \text{is a real-valued scaling factor, and} \\
+Z &amp; \text{is an integer zero point.}
 \end{aligned}\]
 
-<p>Where ( \Delta ) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.</p>
+<p>This formula provides a straightforward and computationally efficient method for converting real numbers into quantized integers, making it a popular choice in many quantization schemes.</p>
 
 <h3 id="pros">Pros</h3>
 <ul>
