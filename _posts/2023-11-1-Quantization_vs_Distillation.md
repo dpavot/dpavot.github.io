@@ -12,8 +12,9 @@ Deep learning models, especially those with vast parameters, pose challenges for
 
 <div class="l-page" style="text-align:center;">
   <img src="https://raw.githubusercontent.com/aadityaura/aadityaura.github.io/master/assets/img/Quantization.png" width="50%" style="margin-bottom: 12px; background-color: white;">
-  <p>Quantization_vs_Distillation</p>
+  <p style="text-align:center;">Quantization_vs_Distillation</p>
 </div>
+
 
 ## Quantization: Precision for Efficiency
 
