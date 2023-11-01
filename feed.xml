@@ -1,14 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T00:42:27+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
-</subtitle><entry><title type="html">Quantized vs Distilled Neural Models - A Comparison</title><link href="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/" rel="alternate" type="text/html" title="Quantized vs Distilled Neural Models - A Comparison" /><published>2023-11-01T00:00:00+00:00</published><updated>2023-11-01T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation</id><content type="html" xml:base="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/"><![CDATA[<p>Deep learning models, especially those with vast parameters, pose challenges for deployment in resource-constrained environments. Two popular techniques, quantization and distillation, address this issue, aiming to make these models more lightweight without compromising too much on performance. But what do they entail, and how do they compare?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://aadityaura.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aadityaura.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-11-01T00:56:05+00:00</updated><id>https://aadityaura.github.io/feed.xml</id><title type="html">blank</title><subtitle>Aaditya Ura | ML Researcher
+</subtitle><entry><title type="html">Quantized vs Distilled Neural Models: A Comparison</title><link href="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/" rel="alternate" type="text/html" title="Quantized vs Distilled Neural Models: A Comparison" /><published>2023-11-01T00:00:00+00:00</published><updated>2023-11-01T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation</id><content type="html" xml:base="https://aadityaura.github.io/blog/2023/Quantization_vs_Distillation/"><![CDATA[<p>Deep learning models, especially those with vast parameters, pose challenges for deployment in resource-constrained environments. Two popular techniques, quantization and distillation, address this issue, aiming to make these models more lightweight without compromising too much on performance. But what do they entail, and how do they compare?</p>
 
 <div class="l-page" style="text-align:center;">
-  <img src="https://raw.githubusercontent.com/aadityaura/aadityaura.github.io/master/assets/img/Quantization.png" width="100%" style="margin-bottom: 12px; background-color: white;" />
-  <p>Overview of Whisper.</p>
+  <img src="https://raw.githubusercontent.com/aadityaura/aadityaura.github.io/master/assets/img/Quantization.png" width="50%" style="margin-bottom: 12px; background-color: white;" />
+  <p>Quantization_vs_Distillation</p>
 </div>
 
 <h2 id="quantization-precision-for-efficiency">Quantization: Precision for Efficiency</h2>
 
 <p>Quantization is all about numeric precision. By reducing the bit-width of weights and activations in a model, one can shrink the model size, potentially increasing inference speed.</p>
+
+<p><strong>Math Behind Quantization:</strong></p>
+
+<p>Suppose the real-valued weight is ( w ) and the quantized weight is ( w_q ). The quantization process can be formulated as:</p>
+
+<p>[ w_q = Q(w) = round(\frac{w}{\Delta}) \times \Delta ]</p>
+
+<p>Where:</p>
+<ul>
+  <li>( \Delta ) is a scaling factor, often calculated as the range of weights divided by the number of quantization levels.</li>
+</ul>
 
 <h3 id="pros">Pros</h3>
 <ul>
@@ -27,6 +38,18 @@
 
 <p>Distillation involves training a smaller neural network, called the student, to mimic a larger pre-trained network, the teacher.</p>
 
+<p><strong>Math Behind Distillation:</strong></p>
+
+<p>The objective in distillation is to minimize the divergence between the teacher’s predictions and the student’s predictions. The most commonly used measure for this divergence is the Kullback-Leibler divergence:</p>
+
+<p>[ L = \sum_i y_i^{(T)} \log(\frac{y_i^{(T)}}{y_i^{(S)}}) ]</p>
+
+<p>Where:</p>
+<ul>
+  <li>( y_i^{(T)} ) is the probability distribution output of the teacher model for class ( i ).</li>
+  <li>( y_i^{(S)} ) is the probability distribution output of the student model for class ( i ).</li>
+</ul>
+
 <h3 id="pros-1">Pros</h3>
 <ul>
   <li><strong>Size Flexibility:</strong> The student model’s architecture or size can be customized, offering a balance between size and performance.</li>
@@ -41,8 +64,7 @@
 
 <h2 id="in-practice">In Practice</h2>
 
-<p>Quantization often finds its place in hardware-specific deployments, while distillation is useful when one wants a lightweight model with performance close to a larger counterpart. In many scenarios, a combination of both – distilling a model and then quantizing it – can bring forth the benefits of both worlds.
-It’s essential to align the choice with the deployment needs, available resources, and acceptable trade-offs in terms of accuracy and efficiency.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A dive into the techniques of quantizing and distilling deep learning models- What are they and how do they differ?]]></summary></entry><entry><title type="html">Desiderata</title><link href="https://aadityaura.github.io/blog/2020/Des/" rel="alternate" type="text/html" title="Desiderata" /><published>2020-10-10T00:00:00+00:00</published><updated>2020-10-10T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2020/Des</id><content type="html" xml:base="https://aadityaura.github.io/blog/2020/Des/"><![CDATA[<p>GO PLACIDLY amid the noise and the haste,<br />
+<p>Quantization often finds its place in hardware-specific deployments, while distillation is sought when one desires a lightweight model with performance close to a larger counterpart. In many scenarios, a combination of both – distilling a model and then quantizing it – can bring forth the benefits of both worlds. It’s essential to align the choice with the deployment needs, available resources, and acceptable trade-offs in terms of accuracy and efficiency.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A dive into the techniques of quantizing and distilling deep learning models: What are they and how do they differ?]]></summary></entry><entry><title type="html">Desiderata</title><link href="https://aadityaura.github.io/blog/2020/Des/" rel="alternate" type="text/html" title="Desiderata" /><published>2020-10-10T00:00:00+00:00</published><updated>2020-10-10T00:00:00+00:00</updated><id>https://aadityaura.github.io/blog/2020/Des</id><content type="html" xml:base="https://aadityaura.github.io/blog/2020/Des/"><![CDATA[<p>GO PLACIDLY amid the noise and the haste,<br />
 and remember what peace there may be in silence.<br />
 As far as possible, without surrender, be on good terms with all persons.</p>
 
