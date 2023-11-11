@@ -7,6 +7,9 @@ nav: true
 nav_order: 5
 ---
 
+##### Fine-Tuning Open-Source LLMs: Best Practices, Lucknow, Dec, 2023
+- [Google Developer Group, DevFest India 2023](https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2023/) [[ Slides](#) ]
+
 ##### MLOps: The Keystone of Sustainable AI, Coimbatore, India Jan, 2023
 - [Gradient Optimizers Meetup](https://www.meetup.com/chennai-gradient-optimizers/events/290847807/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/MLOps_talk/Machine%20Learning%20Operations%20(MLOps).pdf) ]
 
