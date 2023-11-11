@@ -2,6 +2,7 @@ github_users:
   - monk1337
 github_repos:
   - promptslab/Promptify
+  - promptslab/LLMTuner
   - promptslab/Awesome-Prompt-Engineering
   - monk1337/resp
   - monk1337/Various-Attention-mechanisms
