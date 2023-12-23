@@ -7,6 +7,9 @@ nav: true
 nav_order: 5
 ---
 
+##### Optimizing LLMs: Parameter-Efficient Fine-Tuning with Low-Rank Adaptation, Kanpur, Dec, 2023
+- [Google Developer Group, DevFest India 2023](https://gdg.community.dev/events/details/google-gdg-kanpur-presents-devfest-2023-kanpur-2/) [[ Slides](https://docs.google.com/presentation/d/1YWkeTGzQyvbiqa4yDaYoh2E8SxRIQbmpnXL6A8UfbqM/edit?usp=sharing) ]
+
 ##### Fine-Tuning Open-Source LLMs: Best Practices, Lucknow, Dec, 2023
 - [Google Developer Group, DevFest India 2023](https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2023/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Finetuning_opensource_llms_google_devfest/google_devfest_talk.pdf) ]
 
