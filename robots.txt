@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aadityaura.github.io/sitemap.xml
+Sitemap: https://dpavot.github.io/sitemap.xml
