@@ -1,6 +1,99 @@
 ---
 ---
 
+@ARTICLE{SemEval,
+  author={Andre Lamurias, Diana Sousa, Sofia Pereira, Luka Clarke, and Francisco M. Couto},
+  journal={Proceedings of the 11th International Workshop on Semantic Evaluation (SemEval-2017)}, 
+  title="{ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions and events}",
+  year={2017},
+  volume={},
+  number={},
+  pages={1019-1023},
+  doi={10.18653/v1/S17-2179},
+  selected={true},
+  Slides = "",
+  preview = "",
+  abbr = "SemEval",
+  abstract = {This paper presents our approach to participate in the SemEval 2017 Task 12: Clinical TempEval challenge, specifically in the event and time expressions span and attribute identification subtasks (ES, EA, TS, TA). Our approach consisted in training Conditional Random Fields (CRF) classifiers using the provided annotations, and in creating manually curated rules to classify the attributes of each event and time expression. We used a set of common features for the event and time CRF classifiers, and a set of features specific to each type of entity, based on domain knowledge. Training only on the source domain data, our best F-scores were 0.683 and 0.485 for event and time span identification subtasks. When adding target domain annotations to the training data, the best F-scores obtained were 0.729 and 0.554, for the same subtasks. We obtained the second highest F-score of the challenge on the event polarity subtask (0.708). The source code of our system, Clinical Timeline Annotation (CiTA), is available at https://github.com/lasigeBioTM/CiTA.},
+  url = "https://aclanthology.org/S17-2179/",
+  pdf = "https://aclanthology.org/S17-2179.pdf"
+}
+
+@ARTICLE{BO-LSTM,
+  author={Andre Lamurias, Diana Sousa, Luka A. Clarke and Francisco M. Couto},
+  journal={BMC Bioinformatics}, 
+  title="{BO-LSTM: classifying relations via long short-term memory networks along biomedical ontologies}",
+  year={2019},
+  volume={20},
+  number={10},
+  pages={},
+  doi={10.1186/s12859-018-2584-5},
+  selected={true},
+  Slides = "",
+  preview = "",
+  abbr = "BMC",
+  abstract = {Recent studies have proposed deep learning techniques, namely recurrent neural networks, to improve biomedical text mining tasks. However, these techniques rarely take advantage of existing domain-specific resources, such as ontologies. In Life and Health Sciences there is a vast and valuable set of such resources publicly available, which are continuously being updated. Biomedical ontologies are nowadays a mainstream approach to formalize existing knowledge about entities, such as genes, chemicals, phenotypes, and disorders. These resources contain supplementary information that may not be yet encoded in training data, particularly in domains with limited labeled data. We propose a new model to detect and classify relations in text, BO-LSTM, that takes advantage of domain-specific ontologies, by representing each entity as the sequence of its ancestors in the ontology. We implemented BO-LSTM as a recurrent neural network with long short-term memory units and using open biomedical ontologies, specifically Chemical Entities of Biological Interest (ChEBI), Human Phenotype, and Gene Ontology. We assessed the performance of BO-LSTM with drug-drug interactions mentioned in a publicly available corpus from an international challenge, composed of 792 drug descriptions and 233 scientific abstracts. By using the domain-specific ontology in addition to word embeddings and WordNet, BO-LSTM improved the F1-score of both the detection and classification of drug-drug interactions, particularly in a document set with a limited number of annotations. We adapted an existing DDI extraction model with our ontology-based method, obtaining a higher F1 score than the original model. Furthermore, we developed and made available a corpus of 228 abstracts annotated with relations between genes and phenotypes, and demonstrated how BO-LSTM can be applied to other types of relations. Our findings demonstrate that besides the high performance of current deep learning techniques, domain-specific ontologies can still be useful to mitigate the lack of labeled data.},
+  url = "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2584-5",
+  pdf = "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-018-2584-5.pdf"
+}
+
+@ARTICLE{PGR,
+  author = {Diana Sousa, Andre Lamurias, Francisco M. Couto},
+  journal = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, 
+  title = "{A Silver Standard Corpus of Human Phenotype-Gene Relations}",
+  year = {2019},
+  volume = {},
+  number = {},
+  pages = {1487-1492},
+  doi = {10.18653/v1/N19-1152},
+  selected = {true},
+  Slides = "",
+  preview = "",
+  abbr = "NAACL",
+  abstract = {Human phenotype-gene relations are fundamental to fully understand the origin of some phenotypic abnormalities and their associated diseases. Biomedical literature is the most comprehensive source of these relations, however, we need Relation Extraction tools to automatically recognize them. Most of these tools require an annotated corpus and to the best of our knowledge, there is no corpus available annotated with human phenotype-gene relations. This paper presents the Phenotype-Gene Relations (PGR) corpus, a silver standard corpus of human phenotype and gene annotations and their relations. The corpus consists of 1712 abstracts, 5676 human phenotype annotations, 13835 gene annotations, and 4283 relations. We generated this corpus using Named-Entity Recognition tools, whose results were partially evaluated by eight curators, obtaining a precision of 87.01%. By using the corpus we were able to obtain promising results with two state-of-the-art deep learning tools, namely 78.05% of precision. The PGR corpus was made publicly available to the research community.},
+  url = "https://aclanthology.org/N19-1152/",
+  pdf = "https://aclanthology.org/N19-1152.pdf"
+}
+
+@ARTICLE{,
+  author = {Diana Sousa and Francisco M. Couto },
+  journal = {Advances in Information Retrieval: 42nd European Conference on IR Research}, 
+  title = "{BiOnt: Deep Learning Using Multiple Biomedical Ontologies for Relation Extraction}",
+  year = {2020},
+  volume = {},
+  number = {},
+  pages = {},
+  doi = {10.1007/978-3-030-45442-5_46},
+  selected = {true},
+  Slides = "",
+  preview = "",
+  abbr = "ECIR",
+  abstract = {Successful biomedical relation extraction can provide evidence to researchers and clinicians about possible unknown associations between biomedical entities, advancing the current knowledge we have about those entities and their inherent mechanisms. Most biomedical relation extraction systems do not resort to external sources of knowledge, such as domain-specific ontologies. However, using deep learning methods, along with biomedical ontologies, has been recently shown to effectively advance the biomedical relation extraction field. To perform relation extraction, our deep learning system, BiOnt, employs four types of biomedical ontologies, namely, the Gene Ontology, the Human Phenotype Ontology, the Human Disease Ontology, and the Chemical Entities of Biological Interest, regarding gene-products, phenotypes, diseases, and chemical compounds, respectively. We tested our system with three data sets that represent three different types of relations of biomedical entities. BiOnt achieved, in F-score, an improvement of 4.93 percentage points for drug-drug interactions (DDI corpus), 4.99 percentage points for phenotype-gene relations (PGR corpus), and 2.21 percentage points for chemical-induced disease relations (BC5CDR corpus), relatively to the state-of-the-art. The code supporting this system is available at https://github.com/lasigeBioTM/BiOnt.},
+  url = "https://link.springer.com/chapter/10.1007/978-3-030-45442-5_46",
+  pdf = "https://link.springer.com/content/pdf/10.1007/978-3-030-45442-5_46.pdf?pdf=inline%20link"
+}
+
+#@ARTICLE{,
+#  author = {},
+#  journal = {}, 
+#  title = "{}",
+#  year = {},
+#  volume = {},
+#  number = {},
+#  pages = {},
+#  doi = {},
+#  selected = {},
+#  Slides = "",
+#  preview = "",
+#  abbr = "",
+#  abstract = {},
+#  url = "",
+#  pdf = ""
+#}
+
+
+------
+
 # Thesis
 @ARTICLE{Magnet,
 author={Ankit Pal and Muru Selvakumar and Malaikannan Sankarasubbu},
