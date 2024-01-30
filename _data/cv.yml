@@ -2,13 +2,13 @@
   type: map
   contents:
     - name: Full Name
-      value: Ankit Kumar Pal (Aaditya)
+      value: Diana Sousa
     #- name: Date of Birth
     #  value: 14th March 1879
     - name: Email
-      value: aadityaura [at] gmail [dot] com
+      value: Diana.francisco-de-sousa@ec.europa.eu
     - name: Languages
-      value: English, Hindi, Tamil(Novice)
+      value: Portuguese, English, French, Italian (Novice)
 
 - title: Education
   type: time_table
