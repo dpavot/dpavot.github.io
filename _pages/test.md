@@ -1,7 +1,7 @@
 ---
 layout: test
 title: test
-permalink: /
+permalink: /test
 subtitle: # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
