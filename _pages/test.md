@@ -1,33 +1,39 @@
 ---
 layout: page
-title: tests
+permalink: /test/
+title: talks
+description: #Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 8
-dropdown: true
-children: 
-    - title: tests
-      permalink: /tests/
-    - title: divider
-    - title: tests
-      permalink: /tests/
+nav_order: 7
 ---
 
-Hi there, I’m Aaditya (Ankit), a Senior Research Engineer specializing in NLP, Deep learning, and Machine learning. My research aims to develop machine learning methods in the Healthcare domain.
+##### Optimizing LLMs: Parameter-Efficient Fine-Tuning with Low-Rank Adaptation, Kanpur, Dec, 2023
+- [Google Developer Group, DevFest India 2023](https://gdg.community.dev/events/details/google-gdg-kanpur-presents-devfest-2023-kanpur-2/) [[ Slides](https://docs.google.com/presentation/d/1YWkeTGzQyvbiqa4yDaYoh2E8SxRIQbmpnXL6A8UfbqM/edit?usp=sharing) ]
 
-I currently work at [Saama](https://www.saama.com/), conducting research to accelerate [clinical trials and reduce drug development timelines](https://www.pfizer.com/news/articles/how_a_novel_incubation_sandbox_helped_speed_up_data_analysis_in_pfizer_s_covid_19_vaccine_trial). Before joining Saama, I worked as an NLP and Backend Engineer at [Prescience](https://prescienceds.com/). My research interests involve Representation Learning on Graphs, Federated learning, XAI, Generative language models and their applications in Healthcare data.
+##### Fine-Tuning Open-Source LLMs: Best Practices, Lucknow, Dec, 2023
+- [Google Developer Group, DevFest India 2023](https://gdg.community.dev/events/details/google-gdg-lucknow-presents-devfest-lucknow-2023/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Finetuning_opensource_llms_google_devfest/google_devfest_talk.pdf) ]
 
-I've been honored to contribute meaningful research and datasets that have been adopted by leading companies like [Facebook AI](https://arxiv.org/abs/2211.09085) (Galactica), [Google AI](https://arxiv.org/abs/2305.09617) (Med-PaLM, Med-PaLM-2), [Microsoft, and OpenAI](https://arxiv.org/abs/2303.13375) (GPT-4) to further responsible advancements in AI.
+##### MLOps: The Keystone of Sustainable AI, Coimbatore, India Jan, 2023
+- [Gradient Optimizers Meetup](https://www.meetup.com/chennai-gradient-optimizers/events/290847807/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/MLOps_talk/Machine%20Learning%20Operations%20(MLOps).pdf) ]
 
-I have a deep appreciation for open-source work and contribute to projects including Tensorflow, Pytorch Geometric and HuggingFace. In December 2022, I noticed structured output issues in large language models and developed [Promptify](https://github.com/promptslab/Promptify), which received encouraging feedback on GitHub and assisted relief efforts during the [Turkey-Syria earthquake](https://dev.to/erayg/how-an-open-source-disaster-map-helped-thousands-of-earthquake-survivors-afetharitacom-440). During COVID-19 pandemic in March 2020, I initiated a project to capture cough and breath sounds via phone to [classify COVID-19 coughs using deep learning](https://arxiv.org/abs/2010.02417), with the aim of aiding doctors in rapid pre-screening of patients.
+##### Federated Learning & Distributional Shift in Healthcare, Chennai, India Dec, 2022
+- [Gradient Optimizers Meetup](https://www.meetup.com/chennai-gradient-optimizers/events/290847807/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Federated_Learning_Healthcare_Talk/Copy%20of%20FL.pdf) ]
 
-If you are still reading, here is more about me: Apart from my research life, I'm drawn to activities like Boxing, Jiu-Jitsu and Chess. I enjoy spending time in nature, Observation, and Philosophy. I have realized to some extent that everything is connected; there is neither good nor bad; there is neither positive nor negative. I often displace myself away from social noise, take a seat, and try to see, observe, rather than just looking at it. In the process, I naturally learn.
+##### AI in Law: A New Legal Era, Kangra, India Oct, 2021
+- District Court Kangra [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/AI_in_Law_Talk/AI%20in%20Law.pdf) ]
 
-<!-- I was also privileged to serve as a reviewer for journals [Springer Nature 2021](https://www.webofscience.com/wos/author/record/AAA-9381-2021), [IEEE Access 2021](https://www.webofscience.com/wos/author/record/AAA-9381-2021) and [IEEE Access 2022](https://www.webofscience.com/wos/author/record/AAA-9381-2021). -->
+##### Reasoning in LLMs Through Math Word Problems, Chennai, India Oct, 2020
+- ML Researchers Meetup [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Math_Word_Problems_LLMs_Talk/Word%20Problems%20with%20LLM.pdf) ]
+
+##### Graphs Neural Networks for NLP, IITB, India Jul, 2020
+- [Indian Institute of Technology Bombay, Shala](https://shala2020.github.io/) [[ Slides](https://github.com/monk1337/ResearchSlides/blob/main/Graph_convNets_for_NLP/Graph%20convNets%20for%20NLP.pdf) ]
+
+##### Functional Programming: Journey to the Decorator World, Manipal, India Oct, 2017
+- [Manipal Institute of Technology, MUPy](https://pypals.org/mupy2017)
 
 <!--
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.test
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Organize your courses by years, topics, or universities, however you like!
 -->
+
