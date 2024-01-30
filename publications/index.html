@@ -184,7 +184,7 @@
     <div class="author">
       
 
-      Francisco Couto Diana Sousa</div>
+      Diana Sousa, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -200,7 +200,7 @@
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       <a href="https://academic.oup.com/bioinformatics/article/39/4/btad174/7108769" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
-      <a href="https://watermark.silverchair.com/btad174.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA3EwggNtBgkqhkiG9w0BBwagggNeMIIDWgIBADCCA1MGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMWVrMDrRtoE-c2Zi_AgEQgIIDJFNliRwNWtuUkCoY8Y0IW27NDbvyR-fRPwAodq9M9iD9vejvMw-7ts04qx6f6JXOMCRlFMIvTSl6Exm81JjB2lSLHTrMjHVeQowEB6ed_XqEJ6-_D3ab_mFT0gNWV9r7WzyyU0bt20w8BJwLoLLD3JVeqfwrKqTqP1nfMXOsPcMARTaUox8Ima8KvEQHK-b1Gpm6WAoBSj9MN9nFliru49n2CXKqaeTqiZxwyod_sBwTLWm31o_VNxSJqHpUXRwDG1izOoX6lXPb5tBmf5igrOXR8EobcgpnfQkZneHtKX2pSbWfm5g-bqaiyo9rs2qbHKh9CFpX61oZoGFDD9HzABkzD8zmzh8R8c-KubHTUtOZ4RLqU-Ukc7M2YRuAcziMxHBmPz9_kaDnhKWJTjQ7ssSrKDTNCPCnrwulJhnWbtkM4EhIOy6Cw_wd6H6tM5p7ug5g0YaumYhLZBC-lG8uZ6N_Fa7Ou5MmN7FFHb4wNPqPWSemlmeDv7IUnhDK4ytz6TqxUn7nXeLq1wy7O2SpREEjIVNMsYXCE8V4p1SC5ykFtvJ-6Tks4gJk_G1APLBAhd_545SXu5P0tdCThhrR7V_RzXI1XTK7-XYOMebmeZA0opkRYx4kIDT8epVGhYLB66Q-98HrquZLVMgn-LhmH7O2DqSC8qxAswp-YGjcvOnVWzPJWeOOE9FG5CN1CeNSy87hRZRBSid-MzUnOhdW9Ozvaa4pAZxyu9ZlZY0p3EQaOoDHZyKr2mENWvY-qKtyS5wYgBdVwb35XIrJbov_M9VBhbFrKxxFE9PNB-NgfnJTi5Rdm8aYHAOs6VdmRVgcj9zOw3UfJ4MD9V7La6QI9iTsK-E-Eu-8oUfe-ABnobQsLUCEw_SzoWWXgeVSGPlZxCeJmTLT_FqglJSd07aj2KDnwEfa9XavGVD7r33ZnXCMXg1Pyg8pqTt8hWP9asV3F2gfUK4i3UOPFhP7P8fIjfGQ2SsFYDrxSM-JaE194dyLX6HtwVs-SOgbdLQsXIg7cO6K4nsCBdyVSzxsabzss6UiI_PZUSPnrIn1lFBCIf3gKCttZg" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+      <a href="https://academic.oup.com/bioinformatics/article-pdf/39/4/btad174/50015871/btad174.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
     </div>
     
     <div class="badges">
@@ -226,7 +226,7 @@
     <div class="author">
       
 
-      </div>
+      Sofia Conceicão, Diana Sousa, Pedro Silvestre, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -268,7 +268,7 @@
     <div class="author">
       
 
-      </div>
+      Sofia Conceicão, Diana Sousa, Pedro Silvestre, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -400,7 +400,20 @@
     <div class="author">
       
 
-      </div>
+      Marcia Barros, Pedro Ruas, Diana Sousa, Ali Bangash, and
+      <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Francisco Couto' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
     <!-- Journal/Book title and date -->
     
@@ -442,7 +455,7 @@
     <div class="author">
       
 
-      Rodrigo Cassanheira Diana Sousa, and Francisco Couto</div>
+      Diana Sousa, Rodrigo Cassanheira, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -467,80 +480,6 @@
     <!-- Hidden abstract block -->
     <div class="abstract hidden">
       <p>Identifying biomedical relations is necessary to advance our understanding of biological processes and is particularly relevant for applications in precision medicine. This work describes the participation of the lasigeBioTM team in the BioCreative VII Track 1, whose primary goal is the extraction and classification of drug and chemical-protein interactions. Our team adapted an existing neural networks system, BiOnt, that incorporates external knowledge from biomedical ontologies. To perform Track 1, we used the Gene Ontology (GO) and the Chemical Entities of Biological Interest (ChEBI) ontology. We submitted different runs taking into account the use of features such as class weights and post-processing rules. However, due to time constraints, we could not make all the improvements that we planned initially, and our results were below the mean performance of the participating teams. Still, we took the first steps towards this adaption and we are now able to continue improving this system to reach state-of-the-art performance. Keywords—biomedical relation extraction; text mining; deep learning; external knowledge</p>
-    </div>
-  </div>
-</div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-<div class="row">
-  <div class="col-sm-2 preview">
-<img id="coughpng" class="preview z-depth-1 rounded myImg" src="/assets/img/publication_preview/cough.png"><div id="coughpng-modal" class="modal2">
-      <span class="closeimg" onclick="document.getElementById('coughpng-modal').style.display='none'">×</span>
-      <div class="myCaption"></div>
-      <img class="modal-content2" id="coughpng-modal-img">
-    </div>
-    <script>
-      // Get the modal
-      var modal = document.getElementById("coughpng-modal");
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      var img = document.getElementById('coughpng');
-      var modalImg = document.getElementById("coughpng-modal-img");
-      var captionText = modal.getElementsByTagName('div')[0];
-      img.onclick = function () {
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = "";
-      }
-      // Get the <span> element that closes the modal
-      var span = modal.getElementsByTagName('span')[0];
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function () {
-        modal.style.display = "none";
-      }
-      modal.onclick = function () {
-        modal.style.display = "none";
-      }
-    </script>
-</div>
-
-  <!-- Entry bib key -->
-  <div id="Cough" class="col-sm-8 col-md-9">
-    <!-- Title -->
-    <div class="title">Pay Attention to the cough: Early Diagnosis of COVID-19 using Interpretable Symptoms Embeddings with Cough Sound Signal Processing</div>
-    <!-- Author -->
-    <div class="author">
-      
-
-      <em>Ankit Pal</em>, and Malaikannan Sankarasubbu</div>
-
-    <!-- Journal/Book title and date -->
-    
-    
-    <div class="periodical">
-      <em>Proceedings of the 36th Annual ACM Symposium on Applied Computing</em>, 2021
-    </div>
-    <div class="periodical">
-      
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="https://dl.acm.org/doi/10.1145/3412841.3441943" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">URL</a>
-      <a href="https://dl.acm.org/doi/pdf/10.1145/3412841.3441943" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
-      <a href="https://github.com/coughresearch/Cough-signal-processing" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-      <a href="https://nips.cc/media/PosterPDFs/NeurIPS%202022/58229.png?t=1668359616.0178533" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Poster</a>
-      <a href="https://github.com/monk1337/ResearchSlides/blob/main/Cough_paper/presentation_slides.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Slides</a>
-      <a href="https://coughresearch.github.io/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
-    </div>
-    
-    <div class="badges">
-    </div>
-
-    <!-- Hidden abstract block -->
-    <div class="abstract hidden">
-      <p>COVID-19 (coronavirus disease 2019) pandemic caused by SARS-CoV-2 has led to a treacherous and devastating catastrophe for humanity. At the time of writing, no specific antivirus drugs or vaccines are recommended to control infection transmission and spread. The current diagnosis of COVID-19 is done by Reverse-Transcription Polymer Chain Reaction (RT-PCR) testing. However, this method is expensive, time-consuming, and not easily available in straitened regions. An interpretable and COVID-19 diagnosis AI framework is devised and developed based on the cough sounds features and symptoms metadata to overcome these limitations. The proposed framework’s performance was evaluated using a medical dataset containing Symptoms and Demographic data of 30000 audio segments, 328 cough sounds from 150 patients with four cough classes ( COVID-19, Asthma, Bronchitis, and Healthy). Experiments’ results show that the model captures the better and robust feature embedding to distinguish between COVID-19 patient coughs and several types of non-COVID-19 coughs with higher specificity and accuracy of 95.04 ± 0.18% and 96.83± 0.18% respectively, all the while maintaining interpretability.</p>
     </div>
   </div>
 </div>
@@ -605,7 +544,7 @@
     <div class="author">
       
 
-      Francisco Couto Diana Sousa</div>
+      Diana Sousa, Andre Lamurias, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -675,7 +614,7 @@
     <div class="author">
       
 
-      Francisco Couto Diana Sousa</div>
+      Diana Sousa, Andre Lamurias, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -716,7 +655,7 @@
     <div class="author">
       
 
-      Francisco Couto Andre Lamurias</div>
+      Andre Lamurias, Diana Sousa, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -759,7 +698,20 @@
     <div class="author">
       
 
-      </div>
+      Marcia Barros, Andre Lamurias, Diana Sousa, Pedro Ruas, and
+      <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Francisco Couto' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
     <!-- Journal/Book title and date -->
     
@@ -801,7 +753,7 @@
     <div class="author">
       
 
-      Francisco Couto Diana Sousa</div>
+      Diana Sousa, Andre Lamurias, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -848,7 +800,7 @@
     <div class="author">
       
 
-      Luka A. Clarke Andre Lamurias, and Francisco Couto</div>
+      Andre Lamurias, Diana Sousa, Luka Clarke, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -890,7 +842,7 @@
     <div class="author">
       
 
-      Francisco Couto Diana Sousa</div>
+      Diana Sousa, Andre Lamurias, and Francisco Couto</div>
 
     <!-- Journal/Book title and date -->
     
@@ -935,7 +887,20 @@
     <div class="author">
       
 
-      </div>
+      Andre Lamurias, Diana Sousa, Sofia Pereira, Luka Clarke, and
+      <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Francisco Couto' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
     <!-- Journal/Book title and date -->
     
